@@ -1,0 +1,45 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.about-text,
+.about-goal,
+.about-tech-summary {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: var(--transition);
+}
+
+.about-text:hover,
+.about-goal:hover,
+.about-tech-summary:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about-content h3 {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.about-content p {
+    color: var(--secondary-color);
+    line-height: 1.7;
+}
+
+.about-content strong {
+    color: var(--text-color);
+}
