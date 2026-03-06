@@ -5,36 +5,36 @@ import '../styles/Projects.css';
 
 const projectsData = [
     {
-        title: 'E-Commerce Dashboard',
-        description: 'A comprehensive admin dashboard for managing products, orders, and users. Includes chart visualizations and data tables.',
-        tech: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
-        github: 'https://github.com',
-        live: 'https://example.com',
-        image: 'https://via.placeholder.com/400x250/1e293b/38bdf8?text=E-Commerce'
-    },
-    {
-        title: 'Task Management App',
-        description: 'A collaborative task manager with drag-and-drop functionality, user authentication, and real-time updates.',
-        tech: ['React', 'Firebase', 'Tailwind CSS'],
-        github: 'https://github.com',
-        live: 'https://example.com',
-        image: 'https://via.placeholder.com/400x250/1e293b/38bdf8?text=Task+Manager'
-    },
-    {
-        title: 'Weather Forecast',
-        description: 'A clean and responsive weather application fetching real-time data from OpenWeatherMap API with location detection.',
-        tech: ['JavaScript', 'HTML/CSS', 'API'],
-        github: 'https://github.com',
-        live: 'https://example.com',
-        image: 'https://via.placeholder.com/400x250/1e293b/38bdf8?text=Weather+App'
-    },
-    {
-        title: 'Portfolio V1',
-        description: 'My first portfolio website built with vanilla HTML, CSS and JavaScript. Showcasing my early progress.',
+        title: 'APJ Furniture Site',
+        description: 'A modern furniture e-commerce landing page featuring product showcases, interior design categories, and a sleek responsive layout.',
         tech: ['HTML', 'CSS', 'JavaScript'],
-        github: 'https://github.com',
-        live: 'https://example.com',
-        image: 'https://via.placeholder.com/400x250/1e293b/38bdf8?text=Portfolio'
+        github: 'https://github.com/Vishnuraj2005/APJ-Furniture-Site',
+        live: 'https://vishnuraj2005.github.io/APJ-Furniture-Site/',
+        image: '/images/apj-furniture.png'
+    },
+    {
+        title: 'Makaan - Real Estate',
+        description: 'A full-featured real estate web application built with React and Bootstrap, offering property listings, search functionality, and a modern UI.',
+        tech: ['React', 'Bootstrap', 'CSS', 'JavaScript'],
+        github: 'https://github.com/Vishnuraj2005/Makaan',
+        live: 'https://vishnuraj2005.github.io/Makaan/',
+        image: '/images/makaan.png'
+    },
+    {
+        title: 'Blockchain Landing Page',
+        description: 'A visually striking blockchain & crypto landing page with sections for NFTs, staking, DAO, launchpad, and seed funding.',
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        github: 'https://github.com/Vishnuraj2005/Blockchain-Landing-page',
+        live: 'https://vishnuraj2005.github.io/Blockchain-Landing-page/',
+        image: '/images/blockchain.png'
+    },
+    {
+        title: 'Fonicy Construction Site',
+        description: 'A professional construction company website featuring services, project showcases, testimonials, and a contact section with clean animations.',
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        github: 'https://github.com/Vishnuraj2005/Fonicy-Construction-site',
+        live: 'https://vishnuraj2005.github.io/Fonicy-Construction-site/',
+        image: '/images/fonicy-construction.png'
     }
 ];
 
